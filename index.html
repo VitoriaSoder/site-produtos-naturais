@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vidaNuti - Produtos Naturais</title>
+    <!-- <link rel="icon" href="images/logo.png" type="image/png" /> -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <h1>vida<span>Nuti</span></h1>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#products">Produtos</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#testimonials">Depoimentos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="mobile-menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero hero-background">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="hero-tagline">Qualidade & Bem-estar</span>
+          <h1 class="hero-title">
+            Transforme sua saúde com o <span>poder da natureza</span>
+          </h1>
+          <p class="hero-description">
+            A vidaNuti oferece produtos 100% naturais, extraídos com métodos
+            tradicionais e sustentáveis, para proporcionar uma experiência
+            completa de bem-estar físico e mental. Descubra a diferença que
+            ingredientes puros podem fazer na sua vida.
+          </p>
+          <div class="hero-buttons">
+            <a href="#products" class="btn btn-primary">Explorar produtos</a>
+            <a href="#about" class="btn btn-secondary hero-btn-secondary"
+              >Nossa filosofia</a
+            >
+          </div>
+          <div class="hero-features">
+            <div class="hero-feature">
+              <i class="fas fa-leaf"></i>
+              <span>100% Natural</span>
+            </div>
+            <div class="hero-feature">
+              <i class="fas fa-award"></i>
+              <span>Certificação Orgânica</span>
+            </div>
+            <div class="hero-feature">
+              <i class="fas fa-globe-americas"></i>
+              <span>Sustentável</span>
+            </div>
+          </div>
+        </div>
+
+          <div class="hero-image-overlay"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products">
+      <div class="container">
+        <h2 class="section-title">Nossos Produtos</h2>
+        <p class="section-description">Descubra nossa linha completa de produtos naturais selecionados com o mais alto padrão de qualidade.</p>
+        
+        <div class="category-tabs">
+          <button class="tab-btn active" data-category="all">Todos</button>
+          <button class="tab-btn" data-category="oils">Óleos Essenciais</button>
+          <button class="tab-btn" data-category="herbal">Chás & Ervas</button>
+          <button class="tab-btn" data-category="cosmetics">Cosméticos Naturais</button>
+        </div>
+        
+        <div class="products-grid">
+          <div class="product-card" data-category="oils">
+            <div class="product-image">
+              <span class="product-tag">Orgânico</span>
+              <img
+                src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?q=80&w=987&auto=format&fit=crop"
+                alt="Óleo Essencial"
+              />
+              <div class="product-actions">
+                <button class="action-btn"><i class="fas fa-heart"></i></button>
+                <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Óleo Essencial de Lavanda</h3>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span>(42)</span>
+              </div>
+              <p>Extraído de plantas naturais para aromaterapia e bem-estar.</p>
+              <div class="product-price-actions">
+                <span class="price">R$ 49,90</span>
+                <button class="btn-secondary">Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-category="herbal">
+            <div class="product-image">
+              <span class="product-tag">Sem conservantes</span>
+              <img
+                src="https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?q=80&w=1170&auto=format&fit=crop"
+                alt="Chá Verde Orgânico"
+              />
+              <div class="product-actions">
+                <button class="action-btn"><i class="fas fa-heart"></i></button>
+                <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Chá Verde Orgânico</h3>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>(38)</span>
+              </div>
+              <p>Rico em antioxidantes para fortalecer seu sistema imunológico.</p>
+              <div class="product-price-actions">
+                <span class="price">R$ 29,90</span>
+                <button class="btn-secondary">Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-category="herbal">
+            <div class="product-image">
+              <span class="product-tag">Puro</span>
+              <img
+                src="https://images.unsplash.com/photo-1587049352851-8d4e89133924?q=80&w=987&auto=format&fit=crop"
+                alt="Mel Puro"
+              />
+              <div class="product-actions">
+                <button class="action-btn"><i class="fas fa-heart"></i></button>
+                <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Mel Puro Silvestre</h3>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <span>(56)</span>
+              </div>
+              <p>Colhido de forma sustentável, sem aditivos ou conservantes.</p>
+              <div class="product-price-actions">
+                <span class="price">R$ 39,90</span>
+                <button class="btn-secondary">Adicionar</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card" data-category="cosmetics">
+            <div class="product-image">
+              <span class="product-tag">Vegano</span>
+              <img
+                src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?q=80&w=1170&auto=format&fit=crop"
+                alt="Creme Hidratante Natural"
+              />
+              <div class="product-actions">
+                <button class="action-btn"><i class="fas fa-heart"></i></button>
+                <button class="action-btn"><i class="fas fa-shopping-cart"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3>Creme Hidratante Natural</h3>
+              <div class="product-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+                <span>(29)</span>
+              </div>
+              <p>Feito com ingredientes orgânicos para uma pele saudável.</p>
+              <div class="product-price-actions">
+                <span class="price">R$ 59,90</span>
+                <button class="btn-secondary">Adicionar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="products-footer">
+          <a href="#" class="btn btn-primary">Ver todos os produtos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="bestsellers" class="bestsellers">
+      <div class="container">
+        <div class="bestsellers-header">
+          <div class="bestsellers-text">
+            <h2 class="section-title">Mais Vendidos</h2>
+            <p class="section-description">Conheça os produtos favoritos da nossa comunidade e descubra por que são tão amados.</p>
+          </div>
+       
+        </div>
+        
+        <div class="bestsellers-carousel">
+          <div class="bestseller-card">
+            <div class="bestseller-rank">
+              <span class="rank-number">1</span>
+              <span class="rank-text">TOP</span>
+            </div>
+            <div class="bestseller-image">
+              <img
+                src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?q=80&w=987&auto=format&fit=crop"
+                alt="Óleo Essencial de Lavanda"
+              />
+            </div>
+            <div class="bestseller-content">
+              <h3>Óleo Essencial de Lavanda</h3>
+              <div class="bestseller-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(128 avaliações)</span>
+              </div>
+              <p>O favorito dos nossos clientes para relaxamento e sono tranquilo.</p>
+              <div class="bestseller-meta">
+                <span class="bestseller-price">R$ 49,90</span>
+                <span class="bestseller-sold">1.358 vendidos</span>
+              </div>
+              <a href="#" class="btn btn-outline">Ver detalhes</a>
+            </div>
+          </div>
+          
+          <div class="bestseller-card">
+            <div class="bestseller-rank">
+              <span class="rank-number">2</span>
+              <span class="rank-text">TOP</span>
+            </div>
+            <div class="bestseller-image">
+              <img
+              src="https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?q=80&w=1170&auto=format&fit=crop"                alt="Mix de Sementes"
+              />
+            </div>
+            <div class="bestseller-content">
+              <h3>Mix de Sementes Orgânicas</h3>
+              <div class="bestseller-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(96 avaliações)</span>
+              </div>
+              <p>Combinação perfeita de chia, linhaça e girassol para seu dia a dia.</p>
+              <div class="bestseller-meta">
+                <span class="bestseller-price">R$ 34,90</span>
+                <span class="bestseller-sold">985 vendidos</span>
+              </div>
+              <a href="#" class="btn btn-outline">Ver detalhes</a>
+            </div>
+          </div>
+          
+          <div class="bestseller-card">
+            <div class="bestseller-rank">
+              <span class="rank-number">3</span>
+              <span class="rank-text">TOP</span>
+            </div>
+            <div class="bestseller-image">
+              <img
+                src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?q=80&w=1170&auto=format&fit=crop"
+                alt="Creme Hidratante Natural"
+              />
+            </div>
+            <div class="bestseller-content">
+              <h3>Creme Hidratante Natural</h3>
+              <div class="bestseller-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(84 avaliações)</span>
+              </div>
+              <p>Hidratação profunda com ingredientes 100% naturais e veganos.</p>
+              <div class="bestseller-meta">
+                <span class="bestseller-price">R$ 59,90</span>
+                <span class="bestseller-sold">742 vendidos</span>
+              </div>
+              <a href="#" class="btn btn-outline">Ver detalhes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="process">
+      <div class="container">
+        <h2 class="section-title">Nosso Processo</h2>
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-number">1</div>
+            <div class="step-icon">
+              <i class="fas fa-hand-holding-heart"></i>
+            </div>
+            <h3>Seleção cuidadosa</h3>
+            <p>
+              Escolhemos apenas os melhores ingredientes de produtores orgânicos
+              certificados.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">2</div>
+            <div class="step-icon">
+              <i class="fas fa-mortar-pestle"></i>
+            </div>
+            <h3>Produção artesanal</h3>
+            <p>
+              Cada produto é elaborado em pequenos lotes para garantir qualidade
+              superior.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">3</div>
+            <div class="step-icon">
+              <i class="fas fa-vial"></i>
+            </div>
+            <h3>Controle rigoroso</h3>
+            <p>
+              Testes de qualidade em cada etapa para garantir pureza e eficácia.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="step-number">4</div>
+            <div class="step-icon">
+              <i class="fas fa-box-open"></i>
+            </div>
+            <h3>Embalagem sustentável</h3>
+            <p>
+              Usamos materiais biodegradáveis e recicláveis em todas as nossas
+              embalagens.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq">
+      <div class="container">
+        <h2 class="section-title">Perguntas Frequentes</h2>
+        <div class="faq-accordion">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Os produtos são testados em animais?</h3>
+              <span class="faq-icon"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Não, todos os nossos produtos são livres de crueldade animal.
+                Não realizamos e nem apoiamos testes em animais em nenhuma etapa
+                do nosso processo.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Como sei que os produtos são realmente naturais?</h3>
+              <span class="faq-icon"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Todos os nossos produtos possuem certificação orgânica e
+                ingredientes claramente listados. Além disso, disponibilizamos
+                laudos técnicos para consulta em nosso site.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Qual é o prazo de entrega dos produtos?</h3>
+              <span class="faq-icon"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                O prazo de entrega varia de 3 a 10 dias úteis, dependendo da sua
+                localização. Para capitais, geralmente entregamos em até 5 dias
+                úteis.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Posso trocar ou devolver um produto?</h3>
+              <span class="faq-icon"><i class="fas fa-plus"></i></span>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Sim, você tem até 7 dias após o recebimento para solicitar a
+                troca ou devolução de qualquer produto, desde que esteja em sua
+                embalagem original e sem sinais de uso.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <h2 class="section-title">Por que escolher produtos naturais?</h2>
+          <div class="benefits">
+            <div class="benefit">
+              <div class="benefit-icon">
+                <img
+                  src="https://images.unsplash.com/photo-1584362917165-526a968579e8?q=80&w=200&auto=format&fit=crop"
+                  alt="Ícone Saúde"
+                />
+              </div>
+              <h3>Saúde em primeiro lugar</h3>
+              <p>
+                Produtos livres de químicos nocivos que respeitam seu corpo.
+              </p>
+            </div>
+            <div class="benefit">
+              <div class="benefit-icon">
+                <img
+                  src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=200&auto=format&fit=crop"
+                  alt="Ícone Sustentabilidade"
+                />
+              </div>
+              <h3>Sustentabilidade</h3>
+              <p>
+                Embalagens biodegradáveis e processos que respeitam o meio
+                ambiente.
+              </p>
+            </div>
+            <div class="benefit">
+              <div class="benefit-icon">
+                <img
+                  src="https://images.unsplash.com/photo-1599058917765-a780eda07a3e?q=80&w=200&auto=format&fit=crop"
+                  alt="Ícone Qualidade"
+                />
+              </div>
+              <h3>Qualidade superior</h3>
+              <p>
+                Ingredientes selecionados e processos que preservam os
+                nutrientes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2 class="section-title">O que nossos clientes dizem</h2>
+        <div class="testimonials-slider">
+          <div class="testimonial">
+            <div class="testimonial-image">
+              <img
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop"
+                alt="Cliente Maria"
+              />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                "Os produtos da vidaNuti transformaram minha rotina de cuidados.
+                O óleo essencial de lavanda me ajuda a relaxar após um dia
+                estressante."
+              </p>
+              <h4>Maria Silva</h4>
+              <span>Cliente desde 2023</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-image">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop"
+                alt="Cliente João"
+              />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                "O chá verde orgânico da vidaNuti é simplesmente o melhor que já
+                experimentei. Faz parte da minha rotina matinal há meses."
+              </p>
+              <h4>João Oliveira</h4>
+              <span>Cliente desde 2022</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-image">
+              <img
+                src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=150&auto=format&fit=crop"
+                alt="Cliente Ana"
+              />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                "Desde que comecei a usar o creme hidratante natural, minha pele
+                nunca mais foi a mesma. Recomendo a todos!"
+              </p>
+              <h4>Ana Pereira</h4>
+              <span>Cliente desde 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="newsletter" class="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Receba nossas novidades</h2>
+          <p>
+            Inscreva-se para receber dicas de bem-estar e ofertas exclusivas.
+          </p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Seu melhor e-mail" required />
+            <button type="submit" class="btn">Inscrever-se</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>vida<span>Nuti</span></h2>
+            <p>Produtos naturais para uma vida mais saudável</p>
+          </div>
+          <div class="footer-links">
+            <h3>Links Rápidos</h3>
+            <ul>
+              <li><a href="#home">Início</a></li>
+              <li><a href="#products">Produtos</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#testimonials">Depoimentos</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contato</h3>
+            <p>Email: contato@vidanuti.com</p>
+            <p>Telefone: (11) 99999-9999</p>
+            <div class="social-icons">
+              <a href="#" class="social-icon"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 vidaNuti. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
